@@ -8,51 +8,51 @@
   .container {
     width: 750px;
   }
-  .container .col--11 {
+  .container .col-12 {
     width: 750px;
     float: left;
   }
-  .container .col--10 {
+  .container .col-11 {
+    width: 687.5px;
+    float: left;
+  }
+  .container .col-10 {
+    width: 625px;
+    float: left;
+  }
+  .container .col-9 {
+    width: 562.5px;
+    float: left;
+  }
+  .container .col-8 {
+    width: 500px;
+    float: left;
+  }
+  .container .col-7 {
+    width: 437.5px;
+    float: left;
+  }
+  .container .col-6 {
     width: 375px;
     float: left;
   }
-  .container .col--9 {
+  .container .col-5 {
+    width: 312.5px;
+    float: left;
+  }
+  .container .col-4 {
     width: 250px;
     float: left;
   }
-  .container .col--8 {
+  .container .col-3 {
     width: 187.5px;
     float: left;
   }
-  .container .col--7 {
-    width: 150px;
-    float: left;
-  }
-  .container .col--6 {
+  .container .col-2 {
     width: 125px;
     float: left;
   }
-  .container .col--5 {
-    width: 107.14285714px;
-    float: left;
-  }
-  .container .col--4 {
-    width: 93.75px;
-    float: left;
-  }
-  .container .col--3 {
-    width: 83.33333333px;
-    float: left;
-  }
-  .container .col--2 {
-    width: 75px;
-    float: left;
-  }
-  .container .col--1 {
-    width: 68.18181818px;
-    float: left;
-  }
-  .container .col-0 {
+  .container .col-1 {
     width: 62.5px;
     float: left;
   }
@@ -61,51 +61,51 @@
   .container {
     width: 970px;
   }
-  .container .col--11 {
+  .container .col-12 {
     width: 970px;
     float: left;
   }
-  .container .col--10 {
+  .container .col-11 {
+    width: 889.16666667px;
+    float: left;
+  }
+  .container .col-10 {
+    width: 808.33333333px;
+    float: left;
+  }
+  .container .col-9 {
+    width: 727.5px;
+    float: left;
+  }
+  .container .col-8 {
+    width: 646.66666667px;
+    float: left;
+  }
+  .container .col-7 {
+    width: 565.83333333px;
+    float: left;
+  }
+  .container .col-6 {
     width: 485px;
     float: left;
   }
-  .container .col--9 {
+  .container .col-5 {
+    width: 404.16666667px;
+    float: left;
+  }
+  .container .col-4 {
     width: 323.33333333px;
     float: left;
   }
-  .container .col--8 {
+  .container .col-3 {
     width: 242.5px;
     float: left;
   }
-  .container .col--7 {
-    width: 194px;
-    float: left;
-  }
-  .container .col--6 {
+  .container .col-2 {
     width: 161.66666667px;
     float: left;
   }
-  .container .col--5 {
-    width: 138.57142857px;
-    float: left;
-  }
-  .container .col--4 {
-    width: 121.25px;
-    float: left;
-  }
-  .container .col--3 {
-    width: 107.77777778px;
-    float: left;
-  }
-  .container .col--2 {
-    width: 97px;
-    float: left;
-  }
-  .container .col--1 {
-    width: 88.18181818px;
-    float: left;
-  }
-  .container .col-0 {
+  .container .col-1 {
     width: 80.83333333px;
     float: left;
   }
@@ -114,51 +114,51 @@
   .container {
     width: 1170px;
   }
-  .container .col--11 {
+  .container .col-12 {
     width: 1170px;
     float: left;
   }
-  .container .col--10 {
+  .container .col-11 {
+    width: 1072.5px;
+    float: left;
+  }
+  .container .col-10 {
+    width: 975px;
+    float: left;
+  }
+  .container .col-9 {
+    width: 877.5px;
+    float: left;
+  }
+  .container .col-8 {
+    width: 780px;
+    float: left;
+  }
+  .container .col-7 {
+    width: 682.5px;
+    float: left;
+  }
+  .container .col-6 {
     width: 585px;
     float: left;
   }
-  .container .col--9 {
+  .container .col-5 {
+    width: 487.5px;
+    float: left;
+  }
+  .container .col-4 {
     width: 390px;
     float: left;
   }
-  .container .col--8 {
+  .container .col-3 {
     width: 292.5px;
     float: left;
   }
-  .container .col--7 {
-    width: 234px;
-    float: left;
-  }
-  .container .col--6 {
+  .container .col-2 {
     width: 195px;
     float: left;
   }
-  .container .col--5 {
-    width: 167.14285714px;
-    float: left;
-  }
-  .container .col--4 {
-    width: 146.25px;
-    float: left;
-  }
-  .container .col--3 {
-    width: 130px;
-    float: left;
-  }
-  .container .col--2 {
-    width: 117px;
-    float: left;
-  }
-  .container .col--1 {
-    width: 106.36363636px;
-    float: left;
-  }
-  .container .col-0 {
+  .container .col-1 {
     width: 97.5px;
     float: left;
   }
