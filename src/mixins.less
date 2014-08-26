@@ -1,0 +1,16 @@
+.container-fixed(@gutter: @grid-gutter-width) {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+}
+
+.generate-columns(@n; @width; @i: 1) when (@i =< @n) {
+  @col: (@i - @n);
+  .col-@{col} {
+    //(@i * @width / (@n + 1));
+    width: @width / @i;
+    float: left;
+  }
+  .generate-columns(@n; @width; (@i + 1));
+}
