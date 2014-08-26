@@ -1,19 +1,19 @@
 @import "variables.less";
 @import "mixins.less";
 
+// all responsive cols must be within a container
 .container {
   .container-fixed();
 
-  @media (min-width: @screen-sm-min) {
-    width: @container-sm;
-    .generate-columns(12, @container-sm);
+  // float all columns to the left
+  [class*='col-'] {
+    float: left;
+    width: 100%;
   }
-  @media (min-width: @screen-md-min) {
-    width: @container-md;
-    .generate-columns(12, @container-md);
-  }
-  @media (min-width: @screen-lg-min) {
-    width: @container-lg;
-    .generate-columns(12, @container-lg);
-  }
+
+  .make-grid(@container-xs);
+  .make-grid(@container-sm);
+  .make-grid(@container-md);
+  .make-grid(@container-lg);
+  
 }
