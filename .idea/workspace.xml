@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="332db301-009d-4883-ac9c-c68e80880374" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/main.css" afterPath="$PROJECT_DIR$/dist/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mixins.less" afterPath="$PROJECT_DIR$/src/mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="less-recursive-grids.iws" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="mixins.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.432" vertical-offset="0" max-vertical-offset="625">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -150,7 +147,7 @@
     <property name="FullScreen" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="vcs" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -245,7 +242,13 @@
       <option name="project" value="LOCAL" />
       <updated>1409027505782</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Grid formula.">
+      <created>1409028532771</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1409028532771</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -288,7 +291,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Make it so." />
-    <option name="LAST_COMMIT_MESSAGE" value="Make it so." />
+    <MESSAGE value="Grid formula." />
+    <option name="LAST_COMMIT_MESSAGE" value="Grid formula." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -337,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.216" vertical-offset="0" max-vertical-offset="625">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.432" vertical-offset="0" max-vertical-offset="625">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
