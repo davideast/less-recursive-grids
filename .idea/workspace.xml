@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="332db301-009d-4883-ac9c-c68e80880374" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mixins.less" afterPath="$PROJECT_DIR$/src/mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="less-recursive-grids.iws" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="mixins.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.432" vertical-offset="0" max-vertical-offset="625">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.456" vertical-offset="0" max-vertical-offset="625">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -248,7 +249,13 @@
       <option name="project" value="LOCAL" />
       <updated>1409028532771</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Grid formula.">
+      <created>1409029336986</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1409029336986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -341,8 +348,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.432" vertical-offset="0" max-vertical-offset="625">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.456" vertical-offset="0" max-vertical-offset="625">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
