@@ -5,14 +5,10 @@
   padding-right: (@gutter / 2);
 }
 
-// container - ((total cols - how many columns) * the single column width)
-// col-8
-// 1200 - ((12 - 4) * 120)
 .generate-columns(@n; @width; @i: 1) when (@i =< @n) {
-  @col: (@n - @i) + 1;
   @single-width: @width / @n;
-  .col-@{col} {
-    width: @width - ((@n - @col) * @single-width);
+  .col-@{i} {
+    width: @i * @single-width;
   }
   .generate-columns(@n; @width; (@i + 1));
 }

@@ -12,163 +12,163 @@
   .container {
     width: 510px;
   }
-  .container .col-12 {
-    width: 510px;
-  }
-  .container .col-11 {
-    width: 467.5px;
-  }
-  .container .col-10 {
-    width: 425px;
-  }
-  .container .col-9 {
-    width: 382.5px;
-  }
-  .container .col-8 {
-    width: 340px;
-  }
-  .container .col-7 {
-    width: 297.5px;
-  }
-  .container .col-6 {
-    width: 255px;
-  }
-  .container .col-5 {
-    width: 212.5px;
-  }
-  .container .col-4 {
-    width: 170px;
-  }
-  .container .col-3 {
-    width: 127.5px;
+  .container .col-1 {
+    width: 42.5px;
   }
   .container .col-2 {
     width: 85px;
   }
-  .container .col-1 {
-    width: 42.5px;
+  .container .col-3 {
+    width: 127.5px;
+  }
+  .container .col-4 {
+    width: 170px;
+  }
+  .container .col-5 {
+    width: 212.5px;
+  }
+  .container .col-6 {
+    width: 255px;
+  }
+  .container .col-7 {
+    width: 297.5px;
+  }
+  .container .col-8 {
+    width: 340px;
+  }
+  .container .col-9 {
+    width: 382.5px;
+  }
+  .container .col-10 {
+    width: 425px;
+  }
+  .container .col-11 {
+    width: 467.5px;
+  }
+  .container .col-12 {
+    width: 510px;
   }
 }
 @media (min-width: 750px) {
   .container {
     width: 750px;
   }
-  .container .col-12 {
-    width: 750px;
-  }
-  .container .col-11 {
-    width: 687.5px;
-  }
-  .container .col-10 {
-    width: 625px;
-  }
-  .container .col-9 {
-    width: 562.5px;
-  }
-  .container .col-8 {
-    width: 500px;
-  }
-  .container .col-7 {
-    width: 437.5px;
-  }
-  .container .col-6 {
-    width: 375px;
-  }
-  .container .col-5 {
-    width: 312.5px;
-  }
-  .container .col-4 {
-    width: 250px;
-  }
-  .container .col-3 {
-    width: 187.5px;
+  .container .col-1 {
+    width: 62.5px;
   }
   .container .col-2 {
     width: 125px;
   }
-  .container .col-1 {
-    width: 62.5px;
+  .container .col-3 {
+    width: 187.5px;
+  }
+  .container .col-4 {
+    width: 250px;
+  }
+  .container .col-5 {
+    width: 312.5px;
+  }
+  .container .col-6 {
+    width: 375px;
+  }
+  .container .col-7 {
+    width: 437.5px;
+  }
+  .container .col-8 {
+    width: 500px;
+  }
+  .container .col-9 {
+    width: 562.5px;
+  }
+  .container .col-10 {
+    width: 625px;
+  }
+  .container .col-11 {
+    width: 687.5px;
+  }
+  .container .col-12 {
+    width: 750px;
   }
 }
 @media (min-width: 970px) {
   .container {
     width: 970px;
   }
-  .container .col-12 {
-    width: 970px;
-  }
-  .container .col-11 {
-    width: 889.16666667px;
-  }
-  .container .col-10 {
-    width: 808.33333333px;
-  }
-  .container .col-9 {
-    width: 727.5px;
-  }
-  .container .col-8 {
-    width: 646.66666667px;
-  }
-  .container .col-7 {
-    width: 565.83333333px;
-  }
-  .container .col-6 {
-    width: 485px;
-  }
-  .container .col-5 {
-    width: 404.16666667px;
-  }
-  .container .col-4 {
-    width: 323.33333333px;
-  }
-  .container .col-3 {
-    width: 242.5px;
+  .container .col-1 {
+    width: 80.83333333px;
   }
   .container .col-2 {
     width: 161.66666667px;
   }
-  .container .col-1 {
-    width: 80.83333333px;
+  .container .col-3 {
+    width: 242.5px;
+  }
+  .container .col-4 {
+    width: 323.33333333px;
+  }
+  .container .col-5 {
+    width: 404.16666667px;
+  }
+  .container .col-6 {
+    width: 485px;
+  }
+  .container .col-7 {
+    width: 565.83333333px;
+  }
+  .container .col-8 {
+    width: 646.66666667px;
+  }
+  .container .col-9 {
+    width: 727.5px;
+  }
+  .container .col-10 {
+    width: 808.33333333px;
+  }
+  .container .col-11 {
+    width: 889.16666667px;
+  }
+  .container .col-12 {
+    width: 970px;
   }
 }
 @media (min-width: 1170px) {
   .container {
     width: 1170px;
   }
-  .container .col-12 {
-    width: 1170px;
-  }
-  .container .col-11 {
-    width: 1072.5px;
-  }
-  .container .col-10 {
-    width: 975px;
-  }
-  .container .col-9 {
-    width: 877.5px;
-  }
-  .container .col-8 {
-    width: 780px;
-  }
-  .container .col-7 {
-    width: 682.5px;
-  }
-  .container .col-6 {
-    width: 585px;
-  }
-  .container .col-5 {
-    width: 487.5px;
-  }
-  .container .col-4 {
-    width: 390px;
-  }
-  .container .col-3 {
-    width: 292.5px;
+  .container .col-1 {
+    width: 97.5px;
   }
   .container .col-2 {
     width: 195px;
   }
-  .container .col-1 {
-    width: 97.5px;
+  .container .col-3 {
+    width: 292.5px;
+  }
+  .container .col-4 {
+    width: 390px;
+  }
+  .container .col-5 {
+    width: 487.5px;
+  }
+  .container .col-6 {
+    width: 585px;
+  }
+  .container .col-7 {
+    width: 682.5px;
+  }
+  .container .col-8 {
+    width: 780px;
+  }
+  .container .col-9 {
+    width: 877.5px;
+  }
+  .container .col-10 {
+    width: 975px;
+  }
+  .container .col-11 {
+    width: 1072.5px;
+  }
+  .container .col-12 {
+    width: 1170px;
   }
 }
