@@ -5,17 +5,26 @@
   padding-right: (@gutter / 2);
 }
 
-.generate-columns(@n; @width; @i: 1) when (@i =< @n) {
-  @single-width: @width / @n;
+
+.generate-columns(@container-width; @number-cols; @i: 1) when (@i =< @number-cols) {
+
+  //@container-width -> 1200px
+  //@number-cols -> 12
+  //@i -> 8
+
   .col-@{i} {
-    width: @i * @single-width;
+    @single-width: @container-width / @number-cols; // 1200 / 800 = 100
+    width: @i * @single-width; // 800px
   }
-  .generate-columns(@n; @width; (@i + 1));
+
+  .generate-columns(@container-width; @number-cols; @i + 1);
+
 }
 
-.make-grid(@container) {
-  @media (min-width: @container) {
-    width: @container;
-    .generate-columns(12, @container);
+.make-grid(@container-width) {
+  @media(min-width: @container-width) {
+    width: @container-width;
+
+    .generate-columns(@container-width, @grid-columns);
   }
 }

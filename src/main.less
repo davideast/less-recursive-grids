@@ -1,11 +1,10 @@
 @import "variables.less";
 @import "mixins.less";
 
-// all responsive cols must be within a container
 .container {
+
   .container-fixed();
 
-  // float all columns to the left
   [class*='col-'] {
     float: left;
     width: 100%;
@@ -15,5 +14,5 @@
   .make-grid(@container-sm);
   .make-grid(@container-md);
   .make-grid(@container-lg);
-  
+
 }
