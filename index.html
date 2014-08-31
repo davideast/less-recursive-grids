@@ -6,32 +6,108 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="dist/main.css">
   <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: 'Roboto';
+      background: #FAFAFA;
+    }
+    .container h2, h3, h4 {
+
+    }
     [class*='col-'] {
       text-align: center;
       height: 200px;
+      background: #ECE9E2;
+      display: table;
+      margin-bottom: 5px;
+      color: #232323;
     }
-    .col-3 {
-      background: #2a2a2a;
-      color: #ECE9E2;
+
+    [class*='col-']:nth-child(2n+1) {
+      background: #1F7E5C;
+      color: #f0f0f0;
     }
-    .col-9 {
-      background:  #17805B;
-      color: #ECE9E2;
+
+    [class*='col-'] span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    #footer-tron {
+      position: fixed;
+      bottom: 0;
+      text-align: center;
+      background: #322f31;
+      width: 100%;
+      color: #fff;
+    }
+    #footer-tron a {
+      color: #FDCB28 !important;
+      text-decoration: none;
+      padding: 10px 0;
+      display: block;
+      opacity: 0.9;
+    }
+    #footer-tron:hover {
+      color: #FDCB28 !important;
+      background: #544F52;
     }
   </style>
 </head>
 <body>
+
 <div class="container">
-  <div class="col-3">Hi</div>
-  <div class="col-3">Hi</div>
-  <div class="col-3">Hi</div>
-  <div class="col-3">Hi</div>
+  <h2>Responsive(ish) Grid System</h2>
+  <h3>Made from a recursive mixin</h3>
+  <h4>It doesn't work very well, but it demonstrates the concept.</h4>
 </div>
+
 <div class="container">
-  <div class="col-9">Main</div>
-  <div class="col-3">Side</div>
+  <div class="col-5">
+    <span>col-5</span>
+  </div>
+  <div class="col-5">
+    <span>col-5</span>
+  </div>
+  <div class="col-2">
+    <span>col-2</span>
+  </div>
 </div>
+
+<div class="container">
+  <div class="col-3">
+    <span>col-3</span>
+  </div>
+  <div class="col-3">
+    <span>col-3</span>
+  </div>
+  <div class="col-3">
+    <span>col-3</span>
+  </div>
+  <div class="col-3">
+    <span>col-3</span>
+  </div>
+</div>
+
+<br /> <br />
+
+<div class="container">
+  <div class="col-9">
+    <span>col-9</span>
+  </div>
+  <div class="col-3">
+    <span>col-3</span>
+  </div>
+</div>
+
+<div id="footer-tron" class="container">
+  <a href="https://firebase.com/">Hosted by Firebase</a>
+</div>
+
 </body>
 </html>
