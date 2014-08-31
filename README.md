@@ -3,6 +3,8 @@ Make a responsive grid system with recursive mixins
 
 A simple demo to show how to make a responsive grid system using recursive mixins.
 
+### [Demo](https://recursive-mixins.firebaseapp.com/) - [hosted by Firebase](http://firebase.com)
+
 ## Set up
 To set up, you just need to install the dependencies and then run gulp.
 
@@ -10,6 +12,8 @@ To set up, you just need to install the dependencies and then run gulp.
 npm install
 gulp
 ```
+
+The demo will be available on `localhost:8080`.
 
 ## Questions?
 
