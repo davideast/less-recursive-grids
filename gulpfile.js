@@ -4,6 +4,7 @@ var gulp = require('gulp'),
 
 gulp.task('connect', function() {
   connect.server({
+    root: 'app',
     livereload: true
   });
 });
@@ -11,7 +12,8 @@ gulp.task('connect', function() {
 gulp.task('less', function () {
   gulp.src('./src/main.less')
     .pipe(less())
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./app'));
 });
 
 gulp.task('html', function () {
@@ -25,7 +27,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./*.html'], ['html']);
+  gulp.watch(['./app/*.html'], ['html']);
   gulp.watch(['./src/*.less'], ['less']);
   gulp.watch(['./dist/*.css'], ['css']);
 });

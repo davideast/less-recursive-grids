@@ -1,0 +1,54 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+  background: #ECF0F1;
+}
+.container h2, h3, h4 {
+  text-align: center;
+}
+[class*='col-'] {
+  text-align: center;
+  height: 200px;
+  background: #34495E;
+  display: table;
+  margin-bottom: 5px;
+  color: #ECF0F1;
+  position: relative;
+}
+
+[class*='col-']:nth-child(2n+1) {
+  background: #2C3E50;
+  color: #ECF0F1;
+}
+
+[class*='col-'] * {
+  display: table-cell;
+  vertical-align: middle;
+}
+#resize-me {
+  position: absolute;
+  right: 20px;
+  font-size: 72px;
+}
+#footer-tron {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background: #322f31;
+  width: 100%;
+  color: #fff;
+}
+#footer-tron a {
+  color: #FDCB28 !important;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  opacity: 0.9;
+}
+#footer-tron:hover {
+  color: #FDCB28 !important;
+  background: #544F52;
+}
