@@ -1,4 +1,4 @@
-Make a responsive grid system with recursive mixins
+Build a responsive grid system with recursive mixins
 ====================
 
 A simple demo to show how to make a responsive grid system using recursive mixins.
