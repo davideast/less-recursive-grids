@@ -19,6 +19,6 @@ The demo will be available on `localhost:8080`.
 
 ## Questions?
 
-File and issue or hit me up on twitter [@eastdotnet](http://twitter.com/eastdotnet).
+File and issue or hit me up on twitter [@_davideast](http://twitter.com/_davideast).
 
 MIT License
